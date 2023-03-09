@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 800,
+          "bottomRow": 520,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -522,8 +522,8 @@
               "searchTags": [
                 "dropdown"
               ],
-              "topRow": 38,
-              "bottomRow": 45,
+              "topRow": 41,
+              "bottomRow": 48,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
@@ -576,8 +576,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 46,
-              "bottomRow": 80,
+              "topRow": 48,
+              "bottomRow": 52,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -618,9 +618,48 @@
               "originalTopRow": 46,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 132,
+              "originalBottomRow": 80,
               "fontSize": "1rem",
               "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "AudioRecorder1",
+              "displayName": "Audio Recorder",
+              "iconSVG": "/static/media/icon.3cb03cd8ed8464c5725a5d89a8fa563f.svg",
+              "searchTags": [
+                "sound recorder",
+                "voice recorder"
+              ],
+              "topRow": 34,
+              "bottomRow": 41,
+              "parentRowSpace": 10,
+              "type": "AUDIO_RECORDER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "e0j6vy4e3t",
+              "isDeprecated": false,
+              "rightColumn": 12,
+              "widgetId": "52ltdejhy9",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "iconColor": "white"
             }
           ]
         },
